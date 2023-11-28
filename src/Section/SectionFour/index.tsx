@@ -6,7 +6,7 @@ export const SectionFour = () => {
     <div className="container py-16 mx-auto">
       <div className="flex items-center ">
         <div className="w-[40%]">
-          <h1 className="font-semibold text-6xl mb-5">
+          <h1 className="font-semibold text-5xl p-0 mb-5">
             Quer elevar o seu faturamento e aproveitar as condições especiais?
           </h1>
           <p className="text-xl">

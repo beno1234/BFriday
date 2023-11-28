@@ -5,21 +5,40 @@ const SectionSix = () => {
     <section className="px-16 py-8">
       <div className="container mx-auto flex items-center justify-center">
         <div className="w-1/2 pr-8">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-6xl font-bold mb-4">
             O que oferecemos aos nossos clientes?
           </h1>
-          <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            fringilla, urna et dapibus ultricies, elit purus lacinia enim.
+          <p className="mb-4 text-xl">
+            Na Bmouse nossa garantia é o seu Sucesso. Trabalhamos
+            incansavelmente para oferecer soluções de marketing que transformam
+            sua presença online e impulsionam sua marca.
           </p>
           <ul className="list-disc ml-6 mb-4">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
-            <li>Item 7</li>
+            <li>
+              Vídeos de alta qualidade que contam a história da sua empresa de
+              forma criativa e envolvente;
+            </li>
+            <li>
+              Presença digital profissional e constante com designs incriveis
+              que atraem e mantem sua audiência;
+            </li>
+            <li>
+              Identidade visual que destacará sua marca e estabelecerá sua
+              posição de destaque do mercado;
+            </li>
+            <li>
+              Endormarketing assertivo que motiva e aproxima os colaboradores,
+              gerando menos rotatividade no time;
+            </li>
+            <li>
+              Criação de Sites e LP'S que destacam sua empresa, produtos e
+              serviços proporcionando maior visibilidade no mundo digital;
+            </li>
+            <li>
+              Assessoria em eventos, com criação de todo material necessário
+              para destacar a sua presença, como modelo stand, papelaria,
+              banners, e entre outros.
+            </li>
           </ul>
         </div>
         <div className="w-1/2">

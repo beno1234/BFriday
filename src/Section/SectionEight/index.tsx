@@ -7,13 +7,12 @@ const SectionEight = () => {
       <div className="container mx-auto flex items-center justify-center">
         <div className="w-2/3 pr-8">
           <h1 className="text-5xl font-bold mb-4 text-white">
-            Título Bem Grande
+            Não perca essa oportunidade
           </h1>
-          <p className="mb-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            fringilla, urna et dapibus ultricies, elit purus lacinia enim. Sed
-            vestibulum justo id velit faucibus, in efficitur nisi dignissim.
-            Fusce malesuada sem sit amet mi posuere fermentum.
+          <p className="mb-4 text-3xl text-white">
+            Na contratação do plano anual, uma das mensalidades é por
+            <br />
+            nossa conta
           </p>
         </div>
         <div className="w-1/3">
