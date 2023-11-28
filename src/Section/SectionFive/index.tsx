@@ -1,4 +1,3 @@
-import React from "react";
 import equipe from "../../assets/teste-imagem-equipe.png";
 
 const SectionFive = () => {

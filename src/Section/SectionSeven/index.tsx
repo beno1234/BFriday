@@ -1,4 +1,3 @@
-import React from "react";
 import TomRoberta from "../../assets/tom-roberta.png";
 import Logos from "../../assets/logos-clientes.png";
 

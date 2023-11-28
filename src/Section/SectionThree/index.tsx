@@ -1,5 +1,3 @@
-import React from "react";
-
 export const AllInOne = () => {
   return (
     <section className="bg-All bg-no-repeat py-16 mt-20 text-center">

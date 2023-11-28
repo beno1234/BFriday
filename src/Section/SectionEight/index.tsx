@@ -1,4 +1,3 @@
-import React from "react";
 import TomChave from "../../assets/tom-chave.png";
 
 const SectionEight = () => {
