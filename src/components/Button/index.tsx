@@ -15,12 +15,14 @@ export const Botao: React.FC<BotaoProps> = ({ estilo = "principal" }) => {
   return (
     <Button
       onClick={redirecionar}
-      size="md"
-      className={`${
+      size="lg"
+      ripple={true}
+      color={estilo === "principal" ? "green" : "indigo"}
+      className={`w-full mt-7 font-bold text-xl md:text-2xl rounded-full py-3 ${
         estilo === "principal"
-          ? "bg-[#99CC33] text-[#181b1f]"
-          : "bg-[#6254e5] text-white "
-      } w-full h-[4rem] mt-7 font-bold text-3xl rounded-md`}
+          ? "bg-green-500 hover:bg-green-600 text-white"
+          : "bg-indigo-500 hover:bg-indigo-600 text-white"
+      }`}
     >
       Entre em contato conosco
     </Button>

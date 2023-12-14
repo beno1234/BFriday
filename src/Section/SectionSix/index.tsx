@@ -2,48 +2,53 @@ import ursa from "../../assets/Ursa.png";
 
 const SectionSix = () => {
   return (
-    <section className="px-16 py-8">
-      <div className="container mx-auto flex items-center justify-center">
-        <div className="w-1/2 pr-8">
-          <h1 className="text-6xl font-bold mb-4">
-            O que oferecemos aos nossos clientes?
+    <section className=" px-4 md:px-16 py-8">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-center">
+        <div
+          className="w-full md:w-1/2 md:pr-8  md:text-left "
+          data-aos="fade-left"
+        >
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            Transforme sua marca com a BMouse
           </h1>
-          <p className="mb-4 text-xl">
-            Na Bmouse nossa garantia é o seu Sucesso. Trabalhamos
-            incansavelmente para oferecer soluções de marketing que transformam
-            sua presença online e impulsionam sua marca.
+          <p className="mb-4 text-base md:text-lg">
+            Na BMouse, garantimos o seu sucesso. Oferecemos soluções de
+            marketing que vão impulsionar sua presença online e destacar sua
+            marca no mercado.
           </p>
-          <ul className="list-disc ml-6 mb-4">
+          <ul className="list-disc ml-6 mb-4 text-base md:text-lg">
             <li>
-              Vídeos de alta qualidade que contam a história da sua empresa de
+              Vídeos de alta qualidade contando a história da sua empresa de
               forma criativa e envolvente;
             </li>
             <li>
-              Presença digital profissional e constante com designs incriveis
-              que atraem e mantem sua audiência;
+              Presença digital profissional com designs incríveis que atraem e
+              mantêm sua audiência;
             </li>
             <li>
-              Identidade visual que destacará sua marca e estabelecerá sua
-              posição de destaque do mercado;
+              Identidade visual que destaca sua marca e a posiciona em destaque
+              no mercado;
             </li>
             <li>
-              Endormarketing assertivo que motiva e aproxima os colaboradores,
-              gerando menos rotatividade no time;
+              Endomarketing assertivo, motivando e aproximando os colaboradores;
             </li>
             <li>
-              Criação de Sites e LP'S que destacam sua empresa, produtos e
-              serviços proporcionando maior visibilidade no mundo digital;
+              Criação de Sites e LP's destacando sua empresa, produtos e
+              serviços;
             </li>
             <li>
-              Assessoria em eventos, com criação de todo material necessário
-              para destacar a sua presença, como modelo stand, papelaria,
-              banners, e entre outros.
+              Assessoria em eventos, criando todo material necessário para
+              destacar sua presença.
             </li>
           </ul>
         </div>
-        <div className="w-1/2">
-          {/* Substitua a próxima linha pelo código real de incorporação da imagem */}
-          <img src={ursa} alt="Descrição da imagem" className="w-full h-auto" />
+        <div className="w-full md:w-1/2 mt-6 md:mt-0">
+          <img
+            src={ursa}
+            alt="Descrição da imagem"
+            className="w-full h-auto hidden md:block rounded-lg shadow-md"
+            data-aos="fade-right"
+          />
         </div>
       </div>
     </section>
