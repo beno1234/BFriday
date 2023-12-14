@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import LogoBmouse from "../assets/Logo-Bmose.png";
 import React from "react";
-import { ClockLoader } from "react-spinners";
 
 const LoadingScreen: React.FC = () => {
   return (
